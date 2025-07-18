@@ -7,3 +7,8 @@ Training repo
 ## Submodules
 
 Working on the training data....
+
+## local development
+
+opne index.html file in browser
+
