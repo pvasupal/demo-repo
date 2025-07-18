@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Program</title>
+</head>
+<body>
+    <h1>Sorting Program</h1>
+    <p>Original Array: <span id="original-array"></span></p>
+    <p>Sorted Array: <span id="sorted-array"></span></p>
+
+    <script>
+        // Example array
+        const numbers = [34, 7, 23, 32, 5, 62];
+
+        // Display the original array
+        document.getElementById('original-array').textContent = numbers.join(', ');
+
+        // Sort the array in ascending order
+        const sortedNumbers = numbers.slice().sort((a, b) => a - b);
+
+        // Display the sorted array
+        document.getElementById('sorted-array').textContent = sortedNumbers.join(', ');
+    </script>
+</body>
+</html>
